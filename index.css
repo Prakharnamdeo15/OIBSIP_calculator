@@ -1,0 +1,92 @@
+body{
+    margin:0;
+    padding:0;
+    line-height: 0.5;
+    height: 100vh;
+    width: 100vw;
+    background-color: #d03333 ;
+}
+.calci{
+    margin: auto;
+    padding: 46px;
+    text-align: center;
+}
+#display{
+    border:none;
+    background: white;
+    border-radius: 15px;
+    width: 318;
+    font-size: 20;
+    padding: 25px;
+    font-family: monospace;
+    font-weight: 300;
+    height: 60;
+    margin:  auto;
+    border:n2px solid white;
+    color:black;
+}
+.btnDesign{
+    width: 80;
+    height: 55;
+    padding-top: -1;
+    background:#ea7474;
+    border: none;
+    font-family:monospace;
+    font-size: 20;
+    font-weight: 300;
+    border-radius: 19px;
+    margin: 1.5;
+}
+.operatorDesign{
+    width: 55;
+    height: 55;
+    background:rgb(227, 30, 57);
+    padding-top:-1;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20;
+    font-weight: 300;
+    border-radius: 300px;
+    margin: 1.5;
+    transition: 0.25s ease;
+    cursor: pointer;
+}
+.operatorDesign:hover{
+    background: #ff3300;
+}
+#zero{
+    width: 170;
+    height: 55;
+    padding-top:-1;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20;
+    font-weight: 300;
+    border-radius: 20px;
+    margin: 1.5;
+    background: white;
+}
+h1{
+    color:white;
+    text-transform: uppercase;
+    font-family:monospace;
+    font-weight: 700px;
+    font-size: 65;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+}
+h2{
+    color:white;
+    font-family:monospace;
+    font-weight: 500px;
+    font-size: 30;
+    padding: 2px;
+    text-align: center;
+}
+.calculator{
+    margin: auto;
+width: 500px;
+background-color: #d99d9d;
+border-radius: 66px;
+}
